@@ -1,4 +1,5 @@
-import {select, dispatch} from 'd3';
+import { select } from 'd3-selection';
+import { dispatch } from 'd3-dispatch';
 
 import {component} from '../d3-component.js';
 import {swissMapPath, mapRendererBase, mapRendererMesh, mapRendererPatternedLakeOverlay, mapRendererHighlight, prepareMergedGeoData, GEO_KEY_DEFAULT} from '../map/index.js';

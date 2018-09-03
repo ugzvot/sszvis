@@ -88,7 +88,7 @@
  */
 
 
-import {select} from 'd3';
+import { select } from 'd3-selection';
 
 import { halfPixel } from '../svgUtils/crisp.js';
 import translateString from '../svgUtils/translateString.js';

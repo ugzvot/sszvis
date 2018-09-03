@@ -53,7 +53,9 @@
  * @return {sszvis.component}
  */
 
-import {select, axisBottom, axisTop, axisLeft, axisRight, extent} from 'd3';
+import { select } from 'd3-selection';
+import { axisBottom, axisTop, axisLeft, axisRight } from 'd3-axis';
+import { extent } from 'd3-array';
 
 import * as fn from './fn.js';
 import { halfPixel, transformTranslateSubpixelShift } from './svgUtils/crisp.js';

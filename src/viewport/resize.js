@@ -28,7 +28,7 @@
  * @return {Object}
  */
 
-import {select} from 'd3';
+import { select } from 'd3-selection';
 
 // throttles a function to the trailing edge. Copied mostly verbatim from underscore.js
 function throttle(wait, func) {

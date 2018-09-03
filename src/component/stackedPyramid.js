@@ -28,13 +28,15 @@
  * @return {sszvis.component}
  */
 
-import {select, stack as d3Stack, max, line as d3Line} from 'd3';
+import {select} from 'd3-selection';
+import {max} from 'd3-array';
+import {line as d3Line, stack as d3Stack} from 'd3-shape';
 
 import * as fn from '../fn.js';
-import { cascade } from '../cascade.js';
-import { defaultTransition } from '../transition.js';
+import {cascade} from '../cascade.js';
+import {defaultTransition} from '../transition.js';
 import bar from './bar.js';
-import { component } from '../d3-component.js';
+import {component} from '../d3-component.js';
 
 /* Constants
 ----------------------------------------------- */
